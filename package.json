@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-todo",
   "version": "1.0.0",
-  "description": "Quickstart for React/Foundation apps",
+  "description": "React Todo app",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
