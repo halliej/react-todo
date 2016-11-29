@@ -1,14 +1,14 @@
 {
-  "name": "react-timer",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "React timer app",
+  "description": "Quickstart for React/Foundation apps",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "test": "karma start",
     "lint": "jshint **.js"
   },
-  "author": "Hal",
+  "author": "Hal DeLage",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.2",
