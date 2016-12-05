@@ -13,10 +13,6 @@ store.subscribe(() => {
   console.log('New state', store.getState());
 });
 
-store.dispatch(actions.addTodo('Cut kindling'));
-store.dispatch(actions.setSearchText('kindling'));
-store.dispatch(actions.toggleShowCompleted());
-
 $(document).foundation();
 
 require('style!css!sass!applicationStyles');

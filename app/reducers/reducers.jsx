@@ -1,4 +1,4 @@
-/* jshint -W138 */
+/* jshint -W138*/
 
 var uuid = require('node-uuid');
 var moment = require('moment');
