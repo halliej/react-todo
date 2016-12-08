@@ -1,7 +1,7 @@
 var $ = require('jquery');
 
 module.exports = {
-    
+
     filterTodos: function (todos, showCompleted, searchText) {
         var filteredTodos = todos;
         filteredTodos = filteredTodos.filter((todo) => {
@@ -10,7 +10,7 @@ module.exports = {
 
         filteredTodos = filteredTodos.filter((todo) => {
             var text = todo.text.toLowerCase();
-            return searchText.trim().length === 0 || text.indexOf(searchText) > -1;
+            return searchText.trim().length === 0 || text.indexOf(searchText.toLowerCase()) > -1;
         });
 
         filteredTodos.sort((a, b) => {
